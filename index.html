@@ -24,6 +24,22 @@
     .blue {
       background-color: blue;
     }
+
+    .vh-5 {
+      height: 5vh;
+    }
+
+    .vh-10 {
+      height: 10vh;
+    }
+
+    .vh-13 {
+      height: 13vh;
+    }
+
+    .vh-2 {
+      height: 2vh;
+    }
   </style>
   <!--/color-->
 </head>
@@ -83,22 +99,62 @@
     -- this is cards
   -->
   <!-- first card-->
-  <div class="container">
+  <div class="container-fluid">
     <div class="row">
-      <div class="col-6 h-10vH green">jhjhghjg</div>
-    </div>
-      <div class="row">
-        <div class="col-12 col-md-6  h-50vh green">Cras mollis gravida ipsum. Nunc finibus ac orci sit amet luctus. Praesent vitae
-          leo
-          neque. Vestibulum sit amet lacus vel ex venenatis porttitor. Etiam sed dolor aliquam, dignissim magna
-          molestie,
-          dictum lorem. Nam condimentum nunc et lobortis sagittis. Cras at urna eu augue pretium eleifend id mattis
-          nisl.
-          Proin nec nunc sit amet lectus tincidunt elementum.
+      <div class="col-12 col-md-4 col-xl-4 ofsset-md-4 mt-2 ">
+        <div class="card">
+          <img src="assets/img/example4.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+          </div>
         </div>
       </div>
+      <!--/first card-->
+      <!--second card-->
+      <div class="col-12 col-md-4 col-xl-4  mt-2">
+        <div class="card">
+          <img src="assets/img/example4.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+          </div>
+        </div>
+      </div>
+      <!--/second card-->
+      <!-- third card-->
+      <div class="col col-md-4 col-xl-4 mt-2">
+        <div class="card">
+          <img src="assets/img/example4.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+          </div>
+        </div>
+      </div>
+      <!--/third card-->
+    </div>
   </div>
+  <!--/cards-->
+  <!--
+    --this is footer
+  -->
+  <!--footer-->
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary mt-2">
+      <div class="row">
+        <div class="col-12 col-md-3 mt-3 mt-md-0"><img src="assets/img/example.jpg" class="img-thumbnail w-100"></div>
+        <div class="col-12 col-md-3 mt-3 mt-md-0"><img src="assets/img/example.jpg" class="img-thumbnail w-100"></div>
+        <div class="col-12 col-md-3 mt-3 mt-md-0"><img src="assets/img/example.jpg" class="img-thumbnail w-100"></div>
+        <div class="col-12 col-md-3 mt-3 mt-md-0"><img src="assets/img/example.jpg" class="img-thumbnail w-100"></div>
+      </div>
 
+    </nav>
+    <div class="row-fluid">
+      <div class="col col-xl-12 vh-2 bg-dark"></div>
+    </div>
+  </div>
+  <!--/footer-->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"></script>

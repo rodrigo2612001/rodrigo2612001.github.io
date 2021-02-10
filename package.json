@@ -25,7 +25,5 @@
     "bootstrap": "^4.6.0",
     "node-sass": "^5.0.0"
   },
-  "dependencies": {
-    
-  }
+  "dependencies": {}
 }

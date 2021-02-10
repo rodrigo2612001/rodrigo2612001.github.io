@@ -1,0 +1,8 @@
+.card {
+    @extend .shadow;
+    @extend .animate__animated;
+
+    &:hover{
+        @extend .animate__bounce;
+    }
+}

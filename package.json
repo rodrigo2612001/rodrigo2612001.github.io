@@ -1,0 +1,31 @@
+{
+  "name": "rodrigo2612001.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npm run sass:watch",
+    "build": "npm run sass:build",
+    "sass:watch": "node-sass -w ./assets/styles/index.scss ./assets/styles/index.css --source-map ./assets/styles.index.css.map",
+    "sass:build": "node-sass  ./assets/styles/index.scss ./assets/styles/index.css --source-map ./assets/styles.index.css.map",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigo2612001/rodrigo2612001.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodrigo2612001/rodrigo2612001.github.io/issues"
+  },
+  "homepage": "https://github.com/rodrigo2612001/rodrigo2612001.github.io#readme",
+  "devDependencies": {
+    "animate.css": "^4.1.1",
+    "bootstrap": "^4.6.0",
+    "node-sass": "^5.0.0"
+  },
+  "dependencies": {
+    
+  }
+}

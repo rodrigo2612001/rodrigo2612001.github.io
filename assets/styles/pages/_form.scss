@@ -1,0 +1,9 @@
+#form {
+
+    .form-control {
+        @extend .shadow;
+        border-radius: 0;
+        $primary: #343a40;
+        $secondary: red;
+    }
+}

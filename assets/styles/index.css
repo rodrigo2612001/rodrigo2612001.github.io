@@ -8581,7 +8581,7 @@ button.bg-dark:focus {
 .shadow-sm {
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important; }
 
-.shadow, .card {
+.shadow, .card, #form .form-control {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; }
 
 .shadow-lg {
@@ -10256,5 +10256,8 @@ a.text-dark:hover, a.text-dark:focus {
 
 .vh-2 {
   height: 2vh; }
+
+#form .form-control {
+  border-radius: 0; }
 
 /*# sourceMappingURL=../styles.index.css.map */
